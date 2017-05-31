@@ -1,0 +1,17 @@
+{
+  "name": "SWT-sonderpunkte",
+  "description": "Change the virtual points for all players in a Swiss-Chess Tournament (SWT) file",
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": ["chess", "SWT", "swiss-chess"],
+  "main": "./lib/index.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "nomnom": "1.6.x",
+    "swtparser": "1.3.x"
+  },
+  "bin": "./bin/change.js"
+}
